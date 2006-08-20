@@ -1,17 +1,18 @@
 #
 # Conditional build:
 %bcond_without	autodeps	# don't BR packages needed only for resolving deps
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	POE
 %define		pnam	Session-AttributeBased
-Summary:	perl(POE::Session::AttributeBased) - POE::Session using attributes marking state handlers
+Summary:	POE::Session::AttributeBased - POE::Session using attributes marking state handlers
+Summary(pl):	POE::Session::AttributeBased - POE::Session przy u¿yciu atrybutów z obs³ug± stanów
 Name:		perl-POE-Session-AttributeBased
 Version:	0.04
 Release:	0.1
 # "same as perl"
-License:	GPLv1 or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0f9b8de1dfce9f32a1607459414d5cb5
@@ -25,9 +26,16 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This perl module is early alpha code. This package wraps POE::Session and permits use of a
-'state' attributes to designate state handlers. Similar functionality is provided
-by perl POE::Session::Attribute module.
+This Perl module is early alpha code. This package wraps POE::Session
+and permits use of a 'state' attributes to designate state handlers.
+Similar functionality is provided by POE::Session::Attribute Perl
+module.
+
+%description -l pl
+Ten modu³ Perla jest we wczesnym stadium alpha. Pakiet ten obudowuje
+POE::Sessino i pozwala u¿ywaæ atrybutów stanów ('state') do okre¶lania
+obs³ugi stanów. Podobn± funkcjonalno¶æ udostêpnia modu³ Perla
+POE::Session::Attribute.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
