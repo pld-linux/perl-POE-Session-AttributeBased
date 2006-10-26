@@ -10,8 +10,8 @@ Summary:	POE::Session::AttributeBased - POE::Session using attributes marking st
 Summary(pl):	POE::Session::AttributeBased - POE::Session przy u¿yciu atrybutów z obs³ug± stanów
 Name:		perl-POE-Session-AttributeBased
 Version:	0.04
-Release:	0.1
-# "same as perl"
+Release:	1
+# same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
