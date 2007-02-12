@@ -7,7 +7,7 @@
 %define		pdir	POE
 %define		pnam	Session-AttributeBased
 Summary:	POE::Session::AttributeBased - POE::Session using attributes marking state handlers
-Summary(pl):	POE::Session::AttributeBased - POE::Session przy u¿yciu atrybutów z obs³ug± stanów
+Summary(pl.UTF-8):   POE::Session::AttributeBased - POE::Session przy uÅ¼yciu atrybutÃ³w z obsÅ‚ugÄ… stanÃ³w
 Name:		perl-POE-Session-AttributeBased
 Version:	0.04
 Release:	1
@@ -31,10 +31,10 @@ and permits use of a 'state' attributes to designate state handlers.
 Similar functionality is provided by POE::Session::Attribute Perl
 module.
 
-%description -l pl
-Ten modu³ Perla jest we wczesnym stadium alpha. Pakiet ten obudowuje
-POE::Sessino i pozwala u¿ywaæ atrybutów stanów ('state') do okre¶lania
-obs³ugi stanów. Podobn± funkcjonalno¶æ udostêpnia modu³ Perla
+%description -l pl.UTF-8
+Ten moduÅ‚ Perla jest we wczesnym stadium alpha. Pakiet ten obudowuje
+POE::Sessino i pozwala uÅ¼ywaÄ‡ atrybutÃ³w stanÃ³w ('state') do okreÅ›lania
+obsÅ‚ugi stanÃ³w. PodobnÄ… funkcjonalnoÅ›Ä‡ udostÄ™pnia moduÅ‚ Perla
 POE::Session::Attribute.
 
 %prep
