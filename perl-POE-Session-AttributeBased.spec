@@ -7,7 +7,7 @@
 %define		pdir	POE
 %define		pnam	Session-AttributeBased
 Summary:	POE::Session::AttributeBased - POE::Session using attributes marking state handlers
-Summary(pl.UTF-8):   POE::Session::AttributeBased - POE::Session przy użyciu atrybutów z obsługą stanów
+Summary(pl.UTF-8):	POE::Session::AttributeBased - POE::Session przy użyciu atrybutów z obsługą stanów
 Name:		perl-POE-Session-AttributeBased
 Version:	0.04
 Release:	1
